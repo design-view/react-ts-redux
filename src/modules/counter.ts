@@ -1,7 +1,7 @@
 //as const를 작성하는 이유
 //액션생성 함수를 생성시 매개변수 타입이 string으로 되어있지 않도록 방지
-import { ActionType, createReducer, deprecated } from "typesafe-actions";
-const { createStandardAction } = deprecated;
+import { ActionType, createReducer,  createStandardAction} from "typesafe-actions";
+
 //원본타입을 나타내도록 함
 const INCREASE = "counter/INCREASE";
 const DECREASE = "counter/DECREASE";

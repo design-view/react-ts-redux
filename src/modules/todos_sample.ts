@@ -1,7 +1,6 @@
 // actions.ts/ index.ts/ reducer.ts/ types.td 
 
-import { ActionType, createReducer, deprecated } from "typesafe-actions";
-const { createStandardAction } = deprecated;
+import { ActionType, createReducer, createStandardAction } from "typesafe-actions";
 // 액션 타입 선언, 액션 생성 함수, 초기값, 리듀서
 // 할일추가, 할일제거, 할일체크
 

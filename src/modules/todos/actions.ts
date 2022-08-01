@@ -1,5 +1,4 @@
-import {  deprecated } from "typesafe-actions";
-const { createStandardAction } = deprecated;
+import {  createStandardAction } from "typesafe-actions";
 
 // 액션타입 선언
 export const ADD_TODO = 'todos/ADD_TODO';
